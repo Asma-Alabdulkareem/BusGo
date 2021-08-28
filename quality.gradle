@@ -7,11 +7,6 @@ pmd {
   ruleSetFiles = files("${project.rootDir}/config/pmd/pmd-ruleset.xml")
 }
 
-findbugs {
-  includeFilter = file("${project.rootDir}/config/findbugs/findbugs-config.xml")
-  excludeFilter = file("${project.rootDir}/config/findbugs/findbugs-excludes.xml")
-}
-
 checkstyle {
   toolVersion = "6.16"
   showViolations isTravis
