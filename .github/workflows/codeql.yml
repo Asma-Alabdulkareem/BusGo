@@ -64,6 +64,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
+       java -version
        ./gradlew run
 
     - name: Perform CodeQL Analysis
