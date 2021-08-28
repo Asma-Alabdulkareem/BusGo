@@ -1,5 +1,4 @@
 apply plugin: 'pmd'
-apply plugin: 'findbugs'
 apply plugin: 'checkstyle'
 
 def isTravis = "true".equals(System.getenv("TRAVIS"))
